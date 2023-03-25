@@ -1,0 +1,238 @@
+@keyframes bubbleAnimationlignePaire {
+    0%{transform: translate(0.5vw);} 50%{transform: translate(-0.5vw);}
+}
+@keyframes bubbleAnimationligneImpaire {
+    0%{transform: translate(-0.5vw);} 50%{transform: translate(0.5vw);}
+}
+.conteneur {
+    margin: 2vh 2vw 1.5vh 1.5vw;
+    border: 1px solid;
+    border-radius: 1vw;
+    background: goldenrod;
+    width: 96vw;
+    height: 96vh;
+}
+.container {
+    margin: 2vh 2vw 1.5vh 1.5vw;
+    border: 1px solid;
+    border-radius: 1vw;
+    background-image: url('./medias/faible.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 96vw;
+    height: 96vh;
+}
+header.header {
+    width: 94vw;
+    height: 10vh;
+    margin: 1vh 1vw;
+    background: goldenrod;
+    display: flex;
+
+}
+    header.header .titre {
+        border-radius: 2vw;
+     margin: 1vh 2vw;
+     width: 30vw;   
+     height: 8vh;
+     text-align: center;
+     font-weight: 500;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    header.header  .score {
+        border-radius: 2vw;
+        margin: 1vh 5vw;
+        width: 10vw;      
+        background: yellow;
+        text-align: center;
+        font-size: larger;
+        font-weight: 700;
+    }
+    header.header  .meilleur_score {
+        border-radius: 2vw;
+        margin: 1vh 2vw;
+        width: 11vw;      
+        background: olivedrab;
+        text-align: center;
+        font-size: larger;
+        font-weight: 700;
+        color: brown;
+    }
+    header.header  .compteur {
+        border-radius: 2vw;
+        margin: 1vh 5vw;
+        width: 15vw;      
+        background: yellowgreen;
+        text-align: center;
+        font-size: larger;
+        font-weight: 700;
+    }
+main.main {
+    width: 96vw;
+    height: 82vh;
+    background: orange;
+    border-radius: 0vw 0vw 1vw 1vw;
+    border: 1px solid;
+    border-top: groove 2vh green;
+    display: flex;
+    flex-direction: unset;
+}
+
+.ligne1, .ligne2, .ligne3, .ligne4, .ligne5 ,.ligne6, .ligne6, .ligne7, .ligne8, .ligne9, .ligne10, .ligne11, .ligne12, .ligne13, .ligne14, .ligne15 {
+    display: flex;
+    text-align: center;
+}
+.ligne1 .bubble{ animation: bubbleAnimationligneImpaire 0.5s infinite  ;
+   padding: auto;
+   align-content: center;
+    margin: 2vh 1vw;
+    color: white;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-weight: 500;
+    text-align:center;
+    cursor: default;
+
+}
+.ligne2 .bubble{ animation: bubbleAnimationlignePaire 1s infinite;
+    margin: 2vh 3vw;
+    color: white;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-weight: 500;
+    text-align:center;
+    cursor: default;
+}
+.ligne3 .bubble{ animation: bubbleAnimationligneImpaire 0.5s infinite  ;
+    margin: 2vh 1.25vw;
+    color: white;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-weight: 500;
+    text-align:center;
+    cursor: default;
+
+}
+.ligne4 .bubble{ animation: bubbleAnimationlignePaire 1s infinite;
+    margin: 2vh 2.5vw;
+    color: white;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-weight: 500;
+    text-align:center;
+    cursor: default;
+
+}
+.ligne5 .bubble{ animation: bubbleAnimationligneImpaire 0.5s infinite  ;
+    margin: 2vh 4vw;
+    color: white;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-weight: 500;
+    text-align:center;
+    cursor: default;
+
+}
+.ligne6 .bubble{ animation: bubbleAnimationlignePaire 1s infinite;
+    margin: 2vh 1vw;
+    color: white;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-weight: 500;
+    text-align:center;
+    cursor: default;
+
+}
+.ligne7 .bubble{ animation: bubbleAnimationligneImpaire 0.5s infinite  ;
+    margin: 2vh 3vw;
+    color: white;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-weight: 500;
+    text-align:center;
+    cursor: default;
+
+}
+.ligne8 .bubble{ animation: bubbleAnimationlignePaire 1s infinite;
+    margin: 2vh 5vw;
+    color: white;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-weight: 500;
+    text-align:center;
+    cursor: default;
+
+}
+.ligne9 .bubble{ animation: bubbleAnimationligneImpaire 0.5s infinite  ;
+    margin: 2vh 2vw;
+    color: white;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-weight: 500;
+    text-align:center;
+    cursor: default;
+
+}
+.ligne10 .bubble{ animation: bubbleAnimationlignePaire 1s infinite;
+    margin: 2vh 3.5vw;
+    color: white;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-weight: 500;
+    text-align:center;
+    cursor: default;
+
+}
+.ligne11 .bubble{ animation: bubbleAnimationligneImpaire 0.5s infinite  ;
+    margin: 2vh 1.25vw;
+    color: white;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-weight: 500;
+    text-align:center;
+    cursor: default;
+
+}
+.ligne12 .bubble{ animation: bubbleAnimationlignePaire 1s infinite;
+    margin: 2vh 5vw;
+    color: white;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-weight: 500;
+    text-align:center;
+    cursor: default;
+
+}
+.ligne13 .bubble{ animation: bubbleAnimationligneImpaire 0.5s infinite  ;
+    margin: 2vh 1vw;
+    color: white;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-weight: 500;
+    text-align:center;
+    cursor: default;
+
+}
+.ligne14 .bubble{ animation: bubbleAnimationlignePaire 0.5s infinite;
+    margin: 2vh 3.5vw;
+    color: white;
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    font-weight: 500;
+    text-align:center;
+    cursor: default;
+}
