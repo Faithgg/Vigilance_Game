@@ -47,7 +47,12 @@ Duree.innerHTML = "<p>Durée: "+(durreeDeJeu)+ " u.t</p>"
             let bubblee = document.createElement('div')
             bubblee.setAttribute('class','bubble')
             bubblee.setAttribute('style',`background:rgb(${Math.random()*200},${Math.random()*150},${Math.random()*250});width:${largeurBubble}vw;border-radius:${largeurBubble/2}vw;height:${hauteurBubble}vh`)
-            bubblee.innerText= parseInt(Math.random()*raison +10/random)
+            let number = document.createElement('div')
+            number.innerText= parseInt(Math.random()*raison +10/random)
+            if (hauteurBubble >= 3.5)
+             {number.setAttribute('style',`margin:${hauteurBubble/3}vh auto;`)}
+
+            bubblee.append(number)
             ligne.appendChild(bubblee) 
             }
             hauteurCouranteDesLignes=hauteurCouranteDesLignes+hauteurBubble+4
