@@ -1,3 +1,4 @@
+if (document.querySelector('html').getClientRects()[0]["width"] >=1000) {
 let main = document.querySelector('div.main')
 let lesMargesLarges = [1,3,1.25,2.5,4,1,3,5,2,3.5,1.25,5,1,3.5]
 let durreeDeJeu = 50
@@ -141,4 +142,8 @@ onclick = (element)=>{
         nettoyeur()
         return interractionJeu()
     }
+}
+
+} else {
+    alert("Il vous faut un Ecran plus large pour tester le jeu.\nMerci pour la compréhension.")
 }
